@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Charolia | Data Scientist & AI Engineer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Raleway:wght@300;400;500;600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ── LOADER ── -->
+    <div id="ld">
+        <div class="ld-ring"></div>
+        <div class="ld-name">Ali Charolia</div>
+        <div class="ld-bar">
+            <div class="ld-fill"></div>
+        </div>
+        <div class="ld-pct" id="ldp">0%</div>
+    </div>
+
+    <div id="cur"></div>
+    <div id="cur2"></div>
+    <div id="pb"></div>
+
+    <!-- ── NAVBAR ── -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#home" class="logo">Ali Charolia</a>
+            <ul class="nl">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-r">
+                <a href="#" class="ncv"><i class="fas fa-download"></i> Download CV</a>
+                <button class="nmb" id="mBtn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="ov" id="mOv"></div>
+    <nav class="mob-d" id="mDr">
+        <a href="#home" onclick="cM()">Home</a>
+        <a href="#about" onclick="cM()">About</a>
+        <a href="#skills" onclick="cM()">Skills</a>
+        <a href="#projects" onclick="cM()">Projects</a>
+        <a href="#contact" onclick="cM()">Contact</a>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-dots"></div>
+        <div class="hblob hb1"></div>
+        <div class="hblob hb2"></div>
+        <div class="hblob hb3"></div>
+        <div class="w hero-content">
+            <div class="hgrid">
+                <div>
+                    <div class="h-eyebrow"><span class="epulse"></span> Available for Opportunities &mdash; 2026</div>
+                    <h1 class="hname">
+                        <span class="first">Ali</span>
+                        <span class="last">Charolia</span>
+                    </h1>
+                    <div class="hrole"><span id="tyt"></span><span class="htc"></span></div>
+                    <p class="hdesc">Building intelligent systems that extract meaning from data &mdash; from
+                        end&#8209;to&#8209;end ML pipelines to AI&#8209;powered analytics solving real&#8209;world
+                        problems.</p>
+                    <div class="hbtns">
+                        <a href="#projects" class="btn b-grad"><span>View My Work</span><i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn b-out">Let&apos;s Talk</a>
+                    </div>
+                    <div class="hsoc">
+                        <a href="https://github.com/alicharolia7869" target="_blank" class="sa"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/alicharolia78690" target="_blank" class="sa"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="/cdn-cgi/l/email-protection#482b27263c292b3c082d30292538242d662b2725" class="sa"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="hcard">
+                        <div class="hcard-label">Quick Overview</div>
+                        <div class="hcard-title">Ali Charolia &mdash; Data Scientist</div>
+                        <div class="stats-g">
+                            <div class="sbox">
+                                <div class="sv" data-t="5">0</div>
+                                <div class="sl">Projects Built</div>
+                            </div>
+                            <div class="sbox">
+                                <div class="sv" data-t="8">0</div>
+                                <div class="sl">Technologies</div>
+                            </div>
+                            <div class="sbox">
+                                <div class="sv" data-t="2">0</div>
+                                <div class="sl">Years Learning</div>
+                            </div>
+                            <div class="sbox">
+                                <div class="sv" style="font-size:1.5rem">Open</div>
+                                <div class="sl">For Internships</div>
+                            </div>
+                        </div>
+                        <div class="hchips">
+                            <span class="chip c1">Python</span>
+                            <span class="chip c4">Java</span>
+                            <span class="chip c3">TensorFlow</span>
+                            <span class="chip c2">Data Analysis</span>
+                            <span class="chip c1">AI Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hscroll">
+            <div class="hscroll-line"></div>
+            <span class="hscroll-txt">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ── MARQUEE ── -->
+    <div class="mq">
+        <div class="mq-t" id="mtrk"></div>
+    </div>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="sec sec-light">
+        <div class="w">
+            <div class="ab-g">
+                <div class="blob-wrap rvl">
+                    <div class="blob">
+                        <div class="blob-text">
+                            <div class="bi">AC</div>
+                            <div class="bs">Data Scientist</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rvr">
+                    <span class="stag">02. About Me</span>
+                    <h2 class="sh">Who <span class="g">I Am</span></h2>
+                    <p class="ab-lead">I&apos;m a <strong>Data Science student</strong> with a deep passion for
+                        Artificial Intelligence, Machine Learning, and turning raw data into powerful insights.</p>
+                    <p class="ab-lead">From end-to-end ML pipelines for fraud detection to intelligent monitoring
+                        systems &mdash; always asking: <strong>how can data solve real problems?</strong></p>
+                    <blockquote class="ab-quote">
+                        <div class="ab-quote-text">Data is the new oil &mdash; but only if you know how to refine it.
+                        </div>
+                        <span class="ab-quote-author">&#8212; Philosophy of Data Science</span>
+                    </blockquote>
+                    <div class="ab-info">
+                        <div class="ai">
+                            <div class="ai-ico"><i class="fas fa-graduation-cap"></i></div>
+                            <div>
+                                <div class="ai-t">Education</div>
+                                <div class="ai-s">Data Science Undergrad</div>
+                            </div>
+                        </div>
+                        <div class="ai">
+                            <div class="ai-ico"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <div class="ai-t">Location</div>
+                                <div class="ai-s">Available / Remote</div>
+                            </div>
+                        </div>
+                        <div class="ai">
+                            <div class="ai-ico"><i class="fas fa-bullseye"></i></div>
+                            <div>
+                                <div class="ai-t">Focus</div>
+                                <div class="ai-s">AI &middot; ML &middot; Data</div>
+                            </div>
+                        </div>
+                        <div class="ai">
+                            <div class="ai-ico"><i class="fas fa-circle-check"></i></div>
+                            <div>
+                                <div class="ai-t">Status</div>
+                                <div class="ai-s">Open to Internships</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="sec sec-white">
+        <div class="w">
+            <div class="rv">
+                <span class="stag">03. Toolkit</span>
+                <h2 class="sh">Skills &amp; <span class="g">Technologies</span></h2>
+            </div>
+            <div class="sk-g rv">
+                <div class="sk" style="--lv:.95">
+                    <div class="sk-ico"><i class="fab fa-python"></i></div>
+                    <div class="sk-n">Python</div>
+                    <div class="sk-s">Primary Language</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">95%</div>
+                </div>
+                <div class="sk" style="--lv:.80">
+                    <div class="sk-ico"><i class="fab fa-java"></i></div>
+                    <div class="sk-n">Java</div>
+                    <div class="sk-s">OOP &middot; Game Dev</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">80%</div>
+                </div>
+                <div class="sk" style="--lv:.90">
+                    <div class="sk-ico"><i class="fas fa-chart-bar"></i></div>
+                    <div class="sk-n">Data Analysis</div>
+                    <div class="sk-s">Pandas &middot; NumPy</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">90%</div>
+                </div>
+                <div class="sk" style="--lv:.80">
+                    <div class="sk-ico"><i class="fas fa-database"></i></div>
+                    <div class="sk-n">SQL</div>
+                    <div class="sk-s">Queries &middot; Optimization</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">80%</div>
+                </div>
+                <div class="sk" style="--lv:.82">
+                    <div class="sk-ico"><i class="fas fa-file-excel"></i></div>
+                    <div class="sk-n">Excel</div>
+                    <div class="sk-s">Advanced Analysis</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">82%</div>
+                </div>
+                <div class="sk" style="--lv:.88">
+                    <div class="sk-ico"><i class="fab fa-git-alt"></i></div>
+                    <div class="sk-n">Git &amp; GitHub</div>
+                    <div class="sk-s">Version Control</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">88%</div>
+                </div>
+                <div class="sk" style="--lv:.90">
+                    <div class="sk-ico"><i class="fas fa-microchip"></i></div>
+                    <div class="sk-n">AI Tools</div>
+                    <div class="sk-s">Prompt Engineering</div>
+                    <div class="sk-bar">
+                        <div class="sk-f"></div>
+                    </div>
+                    <div class="sk-pct">90%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="sec sec-light">
+        <div class="w">
+            <div class="rv">
+                <span class="stag">04. Work</span>
+                <h2 class="sh">My <span class="g2">Projects</span></h2>
+            </div>
+            <div class="pj-g">
+                <div class="pa pj sp rv"><span class="pj-num">Project 01 &mdash; Featured</span>
+                    <h3 class="pj-t">Hangman Game in Java</h3>
+                    <p class="pj-d">A fully functional console-based Hangman game built in Java using OOP principles.
+                        Features random word selection, ASCII art gallows, lives tracking, letter guessing logic, and a
+                        replay system &mdash; demonstrating strong Java fundamentals.</p>
+                    <div class="ptags"><span class="ptag">Java</span><span class="ptag">OOP</span><span
+                            class="ptag">Console Game</span><span class="ptag">Logic</span></div><a
+                        href="https://github.com/alicharolia7869" target="_blank" class="pja"><i
+                            class="fab fa-github"></i> View on GitHub <i class="fas fa-arrow-right ar"></i></a>
+                </div>
+                <div class="pb pj rv"><span class="pj-num">Project 02</span>
+                    <h3 class="pj-t">QR Fraud Detection Scanner</h3>
+                    <p class="pj-d">ML-powered tool that scans and classifies malicious QR codes with high precision
+                        before users are compromised.</p>
+                    <div class="ptags"><span class="ptag">Machine Learning</span><span class="ptag">Security</span><span
+                            class="ptag">Python</span></div><a href="https://github.com/alicharolia7869" target="_blank"
+                        class="pja"><i class="fab fa-github"></i> View on GitHub <i
+                            class="fas fa-arrow-right ar"></i></a>
+                </div>
+                <div class="pc pj rv"><span class="pj-num">Project 03</span>
+                    <h3 class="pj-t">Stock Market Prediction</h3>
+                    <p class="pj-d">Time-series forecasting using LSTM networks to analyse historical stock data and
+                        predict future market trends.</p>
+                    <div class="ptags"><span class="ptag">TensorFlow</span><span class="ptag">Finance</span><span
+                            class="ptag">LSTM</span></div><a href="https://github.com/alicharolia7869" target="_blank"
+                        class="pja"><i class="fab fa-github"></i> View on GitHub <i
+                            class="fas fa-arrow-right ar"></i></a>
+                </div>
+                <div class="pd pj rv"><span class="pj-num">Project 04</span>
+                    <h3 class="pj-t">Data Visualization Dashboard</h3>
+                    <p class="pj-d">Interactive BI dashboard to visualise complex datasets and surface business-critical
+                        insights in real-time.</p>
+                    <div class="ptags"><span class="ptag">SQL</span><span class="ptag">Excel</span><span
+                            class="ptag">BI</span></div><a href="https://github.com/alicharolia7869" target="_blank"
+                        class="pja"><i class="fab fa-github"></i> View on GitHub <i
+                            class="fas fa-arrow-right ar"></i></a>
+                </div>
+                <div class="pe pj rv"><span class="pj-num">Project 05</span>
+                    <h3 class="pj-t">Hangman Game in Python</h3>
+                    <p class="pj-d">An interactive terminal-based Hangman game written in Python. Includes categorised
+                        word lists, coloured ASCII art, hint system, score tracking, and difficulty levels &mdash; built
+                        with clean, modular Pythonic code.</p>
+                    <div class="ptags"><span class="ptag">Python</span><span class="ptag">Game Dev</span><span
+                            class="ptag">Terminal</span><span class="ptag">Logic</span></div><a
+                        href="https://github.com/alicharolia7869" target="_blank" class="pja"><i
+                            class="fab fa-github"></i> View on GitHub <i class="fas fa-arrow-right ar"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="sec sec-purple">
+        <div class="w">
+            <div class="ct-g">
+                <div class="rvl">
+                    <span class="stag">05. Contact</span>
+                    <h2 class="ct-big">Let&apos;s Build<br><span>Something</span><br>Together</h2>
+                    <p class="ct-sub">Open to internships, collaborations and exciting data science projects. Let&apos;s
+                        create something impactful.</p>
+                    <div class="ct-links">
+                        <a href="https://github.com/alicharolia7869" target="_blank" class="ctlk"><i
+                                class="fab fa-github"></i>github.com/alicharolia7869</a>
+                        <a href="https://www.linkedin.com/in/alicharolia78690" target="_blank" class="ctlk"><i
+                                class="fab fa-linkedin"></i>linkedin.com/in/alicharolia78690</a>
+                        <a href="/cdn-cgi/l/email-protection#cdaea2a3b9acaeb98da8b5aca0bda1a8e3aea2a0" class="ctlk"><i
+                                class="fas fa-envelope"></i>Send an Email</a>
+                    </div>
+                </div>
+                <div class="rvr">
+                    <div class="ct-form">
+                        <form class="form" id="cFrm" novalidate>
+                            <div class="frow">
+                                <div class="ff"><label>Name</label><input type="text" placeholder="John Doe" required>
+                                </div>
+                                <div class="ff"><label>Email</label><input type="email" placeholder="john@email.com"
+                                        required></div>
+                            </div>
+                            <div class="ff"><label>Subject</label><input type="text"
+                                    placeholder="Project collaboration"></div>
+                            <div class="ff"><label>Message</label><textarea rows="5"
+                                    placeholder="Tell me about your project..." required></textarea></div>
+                            <button type="submit" class="fsend" id="fBtn">
+                                <span id="fTxt">Send Message</span>
+                                <i class="fas fa-paper-plane" id="fIco"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div class="w">
+            <div class="ft-center">
+                <p class="ft-big">Have a project in <strong>mind?</strong></p>
+                <p class="ft-sub">Let&apos;s build something extraordinary together</p>
+                <div class="ft-btns">
+                    <a href="#contact" class="btn b-grad"><span>Start a Conversation</span><i
+                            class="fas fa-arrow-right"></i></a>
+                    <a href="https://github.com/alicharolia7869" target="_blank" class="btn b-out"><i
+                            class="fab fa-github"></i><span>GitHub</span></a>
+                </div>
+            </div>
+            <div class="ft-div"></div>
+            <div class="ft-row">
+                <p class="ft-c">&copy; 2026 <span>Ali Charolia</span> &mdash; Data Science Portfolio</p>
+                <div class="ft-soc">
+                    <a href="https://github.com/alicharolia7869" target="_blank" class="fsa"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alicharolia78690" target="_blank" class="fsa"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="/cdn-cgi/l/email-protection#a6c5c9c8d2c7c5d2e6c3dec7cbd6cac388c5c9cb" class="fsa"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+                <a href="#home" class="ft-up"><i class="fas fa-arrow-up"></i> Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
